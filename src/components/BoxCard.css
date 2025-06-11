@@ -1,0 +1,105 @@
+.box {
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.box.fitScreen {
+    max-width: 100%;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px 5px;
+    border: 0px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* makes the content vertically but fix the width of content  */
+    align-items: stretch;
+    /* allow content to have their own width  */
+}
+
+.box.success {
+    background-color: #baffbf;
+}
+
+.box.alert {
+    background-color: #ffb4b4;
+}
+
+.box.warning {
+    background-color: #FFDEB4;
+}
+
+.box p {
+    margin: 10px;
+}
+
+.box p.title {
+    font-size: 20px;
+}
+
+.box p.description {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+.box button {
+    width: max-content;
+    height: max-content;
+}
+
+.box:hover {
+    background-color: #d7cfdd;
+    color: #FFFFFF;
+}
+
+.box.wrapContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.topContent {
+    display: flex;
+    flex-direction: row;
+    /* Default, can be omitted */
+    list-style: none;
+    /* Removes default bullets */
+    padding: 0;
+    /* Removes default padding */
+    margin: 0;
+    /* Removes default margin */
+    gap: 20px;
+    /* Optional: space between items */
+}
+
+.topContentCard {
+    width: 100%;
+    padding: 0;
+    /* Removes default padding */
+    margin: 0;
+    /* Removes default margin */
+    gap: 20px;
+    /* Optional: space between items */
+}
+
+.box p.topContentTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box p.topContentTitle:hover {
+    font-size: 16px;
+    text-decoration: underline;
+}
