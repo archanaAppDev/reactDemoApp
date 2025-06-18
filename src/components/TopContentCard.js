@@ -14,7 +14,7 @@ export const TopContentCard = ({ content, onClick }) => {
                 <h2>{content.topContentTitle}</h2>
                 <img src={content.image} alt={content.name} style={{ width: "200px", height: "150px" }} />
                 <span className="icon-text" onClick={onClick}>
-                    <FaMapMarkerAlt style={{ marginRight: '8px' }} />
+                    <FaMapMarkerAlt />
                     <p onClick={openGoogleMaps} className="topContentTitle">{content.address}</p>
                 </span>
             </div>

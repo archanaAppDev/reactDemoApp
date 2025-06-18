@@ -55,10 +55,7 @@
     height: max-content;
 }
 
-.box:hover {
-    background-color: #d7cfdd;
-    color: #FFFFFF;
-}
+
 
 .box.wrapContent {
     display: flex;

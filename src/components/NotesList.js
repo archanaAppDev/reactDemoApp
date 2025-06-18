@@ -24,7 +24,7 @@ export const NotesList = () => {
 
         }
       </ul>
-      <BoxCard result="success">
+      {/* <BoxCard result="success">
         <p className="title">Lorem ipsum dolor sit.</p>
         <p className="discption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit a repudiandae provident asperiores. Nihil ipsam, sequi nisi laborum soluta doloremque accusantium laboriosam temporibus mollitia quo obcaecati praesentium deserunt aspernatur corporis. </p>
       </BoxCard>
@@ -37,7 +37,7 @@ export const NotesList = () => {
         <p className="discption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, facilis temporibus saepe corporis cum maxime asperiores est reiciendis consequuntur nesciunt, itaque hic architecto qui officia dignissimos, accusantium debitis quam. Autem?</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, earum!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, earum!</p>
-      </BoxCard>
+      </BoxCard> */}
     </section>
 
   )
